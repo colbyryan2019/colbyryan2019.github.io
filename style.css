@@ -186,6 +186,12 @@ IMAGES SCALING
 	height:auto;
 	mix-blend-mode: multiply;
 }
+.panagoralogo{
+	width:50%;
+	height:auto;
+	mix-blend-mode: multiply;
+}
+
 .smartschoollogo{
 	width:50%;
 	height:auto;
