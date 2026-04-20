@@ -1,366 +1,297 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Colby Ryan Personal Website</title>
+	<title>Colby Ryan — Software Engineer</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="bootstrap.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+		rel="stylesheet">
 </head>
+
 <body>
-<!--NAV SECTION-->
-<div class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type = "button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">COLBY RYAN</a>
-		</div>
-		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#header-section">HOME</a></li>
-				<li><a href="#about-section">ABOUT</a></li>
-				<li><a href="#resume-section">RESUME</a></li>
-				<li><a href="#project-section">PROJECTS</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
-<!--END NAV SECTION-->
-<!--HEADER SECTION-->
-<div id="header-section">
-        <div class="container">
-            <div class="row centered">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1><strong> COLBY RYAN</strong>          
-                     
-                    </h1>
-                     <br /> <br /> <br />
-                    <h2> Software Developer Student</h2>
-                     <br />
-                  <a href="#about-section">  <i class="fa fa-angle-double-down fa-5x down-icon"></i> </a>
-                </div>
-            </div>
-           
-        </div>
-       
-    </div> 
-<!--END HEADER SECTION-->
-<!--ABOUT SECTION-->
-<div id="about-section">
-	<div class="container">
-		<div class="row main-top-margin text-center">
-			<div class="col-md-8 col-md-offset-2" data-scrollreveal="enter top and move 100px, wait 0.3s">
-				<h1>Who am I?</h1>
+
+	<!-- NAV -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">COLBY RYAN</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#header-section">HOME</a></li>
+					<li><a href="#about-section">ABOUT</a></li>
+					<li><a href="#experience-section">EXPERIENCE</a></li>
+					<li><a href="#education-section">EDUCATION</a></li>
+					<li><a href="#project-section">PROJECTS</a></li>
+				</ul>
 			</div>
 		</div>
-			<div class="row main-low-margin text-center main-bottom-margin">
-				<div class="about-child first">
-					<div class="col-md-3" data-scrollreveal="enter left and move 100px, wait 0.4s">
-						<img class="headshot" src="images/headshot.jpg" alt="">
-						<h4><strong>Colby Ryan</strong></h4>
-						<p>
-							I am a Software Engineer at Sapphire Software Services, and live in Brooklyn, NY. I am looking for teaching/mentoring volunteer opportunities in New York City.
-						</p>
+	</div>
+
+	<!-- HEADER -->
+	<div id="header-section">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-md-8 col-md-offset-2">
+					<h1><strong>COLBY RYAN</strong></h1>
+					<h2>Software Engineer</h2>
+					<p class="header-location">New York City, NY</p>
+					<div class="header-links">
+						<a href="mailto:colbyryan2019@gmail.com" class="header-link">colbyryan2019@gmail.com</a>
+						<span class="header-divider">·</span>
+						<a href="tel:5083308410" class="header-link">(508) 330-8410</a>
+						<span class="header-divider">·</span>
+						<a href="https://github.com/colbyryan2019" class="header-link">GitHub</a>
+						<span class="header-divider">·</span>
+						<a href="https://www.linkedin.com/in/colby-ryan/" class="header-link">LinkedIn</a>
+					</div>
+					<br />
+					<a href="#about-section"><i class="fa fa-angle-double-down fa-5x down-icon"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ABOUT -->
+	<div id="about-section">
+		<div class="container">
+			<div class="row main-top-margin text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<h1>About</h1>
+					<div class="section-underline"></div>
+				</div>
+			</div>
+			<div class="row main-low-margin main-bottom-margin">
+				<div class="col-md-3 text-center">
+					<img class="headshot" src="images/headshot.jpg" alt="Colby Ryan">
+					<h4 class="about-name">Colby Ryan</h4>
+					<p class="about-subtitle">Software Engineer</p>
+					<p class="about-subtitle">New York City, NY</p>
+				</div>
+				<div class="col-md-8 col-md-offset-1 text-justify">
+					<p>
+						Hi, I'm Colby Ryan — a Software Engineer at Panoramix Financial living in New York City, NY. I
+						graduated from Union College in 2024 with a double major in Computer Science and Mathematics.
+					</p>
+					<p>
+						At Panoramix, I led development of FacetAI — an AI-powered assistant announced at the T3
+						conference — and have built a range of full-stack features including a Retrieval Augmented
+						Generation bot, nearest-neighbor search systems for embedded text retrieval, and user-facing
+						investment model tooling.
+					</p>
+					<p>
+						Before that, I interned at PanAgora Asset Management as a data science intern and at TandemAI
+						working on HPC storage performance. After high school, I spent a gap year in Barcelona, Spain,
+						where I earned my TEFL certification and taught English.
+					</p>
+					<p>
+						Outside of work, I enjoy building mobile apps, traveling, playing soccer, basketball, and chess.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- EXPERIENCE -->
+	<div id="experience-section">
+		<div class="container">
+			<div class="row main-top-margin text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<h1>Experience</h1>
+					<div class="section-underline"></div>
+				</div>
+			</div>
+
+			<div class="row main-low-margin">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="exp-card">
+						<div class="exp-header">
+							<div class="exp-company-block">
+								<span class="exp-company">Panoramix Financial</span>
+								<span class="exp-role">Software Engineer</span>
+							</div>
+							<span class="exp-date">August 2024 – Present</span>
+						</div>
+						<ul class="exp-bullets">
+							<li>Led development and implementation of FacetAI, announced at the <a href="https://t3technologyhub.com/panoramix-introduces-facetai-a-practical-ai-initiative-built-for-advisors-at-t32026/" target="_blank" class="exp-link">T3 conference</a> and now live</li>
+							<li>Engineered a nearest-neighbor search system for embedded text retrieval using
+								multivector calculus to improve response precision</li>
+							<li>Built a Retrieval Augmented Generation bot from documentation to assist clients</li>
+							<li>Created user-query tracking in a SQL database to understand common user errors</li>
+							<li>Built pages for users to create and edit investment models, asset classes, user defined
+								fields, and more</li>
+						</ul>
 					</div>
 				</div>
-				<div class="about-child second">
-					<div class="col-md-7 col-sm-7 col-md-offset-1 text-justify" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h3> ABOUT COLBY RYAN</h3>
-					<p>
-						<span class="tab"></span>
-						Hi! My name is Colby Ryan and I'm from Southborough, Massachusetts. I am a Software Engineer at Sapphire Software Services living in Brooklyn, NY. I graduated from Union College in 2024 with a double major in Computer Science and Mathematics.
-						<br><span class="tab"></span>
-						I have had a passion for Computer Programming since middle school, and in high school I took AP Computer Science and several post-AP CS courses. After graduating high school in 2019, I moved to Barcelona, Spain, where I became TEFL Certified and taught English during a gap year. In college, I enjoyed theoretical math classes and declared a double major in Mathematics. I became involved on campus through being elected class Vice President, joining a fraternity, and participating in club sports. 
-						<br><span class="tab"></span> 
-						Outside of my education, I attended coding camps in middle and high school where I learned Swift and App Development. During my junior and senior years of high school, I mentored middle school boys in an after school club, CS Gents. Later, after my first year of college, I worked as a remote summer intern for Sapphire Software Services. For my first project, I redesigned a help-guides webpage, and wrote a search and sorting algorithm in C# to create a search bar. Also during my time there, I worked on Panoramix, a tool for financial advisors. I programmed back-end functions to goal-track retirement progress for clients. Then, during the summer of 2022, I worked as an intern in-office in Manhattan at TandemAI. There, I was responsible for building storage-performance tests on their HPC cluster, using python scripts to automate flexible I/O tester calls. I became familiar with terminal, HPC clusters, and an in-office work environment. More recently, during the summer of 2023, I worked as a data science summer intern at PanAgora Asset Management in Boston, Massachusetts. While I was there, I wrote Python scripts to web scrape FBI data and run insertion queries into SQL tables. I also used HTML, CSS, Javascript, Pythons’ pandas and Flask libraries to transition an internal daily diagnostics email into a full-stack interactive webpage for the data science team.
+			</div>
 
-						<br><span class="tab"></span>In my free time, I also enjoy traveling, reading, playing soccer, basketball, and chess.
-					</p>
+			<div class="row main-low-margin">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="exp-card">
+						<div class="exp-header">
+							<div class="exp-company-block">
+								<img class="exp-logo" src="images/panagora_logo.png" alt="PanAgora">
+								<div>
+									<span class="exp-company">PanAgora Asset Management</span>
+									<span class="exp-role">Data Science Intern</span>
+								</div>
+							</div>
+							<span class="exp-date">Summer 2023</span>
+						</div>
+						<ul class="exp-bullets">
+							<li>Wrote Python scripts to connect to the FBI API, extract, transform, and load data into a
+								SQL server for Portfolio Manager</li>
+							<li>Transitioned a daily data diagnostic email tracking security performances into a
+								full-stack interactive webpage</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row main-low-margin main-bottom-margin">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="exp-card">
+						<div class="exp-header">
+							<div class="exp-company-block">
+								<img class="exp-logo" src="images/tandemai_logo.png" alt="TandemAI">
+								<div>
+									<span class="exp-company">TandemAI</span>
+									<span class="exp-role">Software Engineer Intern</span>
+								</div>
+							</div>
+							<span class="exp-date">Summer 2022</span>
+						</div>
+						<ul class="exp-bullets">
+							<li>Automated fio storage testing on an HPC Cluster</li>
+							<li>Created flexible scripts to test storage bandwidth and latency; graphed results with
+								matplotlib</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!--END ABOUT SECTION -->
 
-<!--RESUME SECTION-->
-<div id="resume-section">
-	<div class="container">
-		<!--<button class="btn"><a href="Resume.pdf" download="Colby Ryan Resume">Download Resume</a></button> -->
-		<div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-			<div class="col-md-8 cold-md-offset-2">
-				<h1>Education</h1>
-			</div>
-		</div>
-		<div class="row main-low-margin">
-			<div class="col-md-10 col-md-offset-1">
-				<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="unionlogo" src="images/union_logo.png" alt="">
-				</div>
-				<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h4><strong class="color-light-blue">Union College</strong></h4>
-					<p>
-						I graduated Union College in Spring, 2024. I completed a Double Major in Mathematics and Computer Science. I was a Presidential Scholar. I completed two undergraduate theses. Computer Science thesis: How Chess Engines Employ Search Algorithms. Math thesis: Concepts in Hypergraph Theory. I was elected Class Vice President, a member of club soccer, and elected social chair of Theta Delta Chi Fraternity. I also spent time tutoring middle school students in Algebra and Geometry via zoom. Some of my selected classes include: Text Analytics, Honors Multivariable Calculus, Real Analysis, Discrete Math, Data Structures, Algorithms, and Programming Languages. 
-					</p>
+	<!-- EDUCATION -->
+	<div id="education-section">
+		<div class="container">
+			<div class="row main-top-margin text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<h1>Education</h1>
+					<div class="section-underline"></div>
 				</div>
 			</div>
-		</div>
 
-
-	<div class="row main-low-margin main-bottom-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="amsalogo" src="images/amsa_logo.png" alt="">
+			<div class="row main-low-margin">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="exp-card">
+						<div class="exp-header">
+							<div class="exp-company-block">
+								<img class="exp-logo" src="images/union_logo.png" alt="Union College">
+								<div>
+									<span class="exp-company">Union College — Schenectady, NY</span>
+									<span class="exp-role">B.S. Computer Science &amp; Mathematics (Double Major)</span>
+								</div>
+							</div>
+							<span class="exp-date">September 2020 – June 2024</span>
+						</div>
+						<ul class="exp-bullets">
+							<li>Elected Class Vice President, Theta Delta Chi Social Chair, Philosophy Club Member</li>
+							<li>Completed undergraduate theses in both Computer Science and Mathematics</li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h4><strong class="color-light-blue">Advanced Math and Science Academy Charter School</strong></h4>
-					<p>
-						Graduated from a top-ranked high school as an AP Scholar. AP courses included Calculus AB (5), Computer Science (4), Government and Politics (3), and English Language and Composition (3). Class-elected Student Government representative. Honor roll. Varsity Soccer. Junior Varsity Soccer Captain. Mentored middle school boys in Computer Programming. Taekwondo second-degree black belt, competition team captain, silver medalist in National High School Tournament.
-					</p>
-				</div>
-		</div>
-	</div>
-</div>
-<div id="exp1-section">
-	<div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-		<div class="col-md-8 cold-md-offset-2">
-			<h1>Relevant Experience</h1>
-		</div>
-	</div>
-
-	<div class="row main-low-margin main-bottom-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="sapphirelogo" src="images/sapphire_software_services_logo.jpeg" alt="">
 			</div>
-			<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-				<h4><strong">Sapphire Software Services</strong> Software Engineer</h4><h6><br><i>Eagan, MN</i> (August 2024 - Present)</h6>
-					<p>
-						Working as a Software Engineer, on both frontend and backend projects.
-					</p>
+
+			<div class="row main-low-margin main-bottom-margin">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="exp-card">
+						<div class="exp-header">
+							<div class="exp-company-block">
+								<span class="exp-company">TEFL Iberia — Barcelona, Spain</span>
+								<span class="exp-role">TEFL Certification &amp; English Instructor</span>
+							</div>
+							<span class="exp-date">September 2019 – March 2020</span>
+						</div>
+						<ul class="exp-bullets">
+							<li>Taught private English classes of all levels part time</li>
+							<li>Learned conversational Spanish during an immersive gap year abroad</li>
+						</ul>
+					</div>
 				</div>
-		</div>
-	</div>
-
-	<div class="row main-low-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="panagoralogo" src="images/panagora_logo.png" alt="">
-				</div>
-				<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h4><strong>PanAgora Asset Management</strong> --- Data Science Summer Intern</h4> <h6><br><i>Boston, MA</i> (June 2023-September 2023)</h6>
-					<p>
-						Wrote Python scripts to web scrape FBI data and run insertion queries into SQL tables for Portfolio Manager with minimal direction. Used HTML, CSS, Javascript, Pythons’ pandas and Flask libraries to transition an internal daily diagnostics email into a full-stack interactive webpage for the data science team.
-					</p>
-				</div>
-		</div>
-	</div>
-
-	<div class="row main-low-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="tandemailogo" src="images/tandemai_logo.png" alt="">
-				</div>
-				<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h4><strong>TandemAI</strong> --- HPC Summer Intern</h4> <h6><br><i>New York City, NY</i> (June 2022-September 2022)</h6>
-
-					<p>
-						Wrote python scripts to automate fio storage testing on the HPC Cluster. Created flexible scripts to test storage bandwidth and latency using both random and sequential read and write tests, and wrote python script to read and graph the output results.
-					</p>
-				</div>
-		</div>
-	</div>
-
-	<div class="row main-low-margin main-bottom-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="sapphirelogo" src="images/sapphire_software_services_logo.jpeg" alt="">
-			</div>
-			<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-				<h4><strong">Sapphire Software Services</strong> --- Remote Summer Intern</h4><h6><br><i>Eagan, MN</i> (June 2021-September 2021)</h6>
-					<p>
-						Wrote back-end functions (e.g., calculating target ROI’s, target retirement ages, and progress towards financial goals) for a new goal-tracking feature added to Panoramix, a software tool used by financial advisors. Redesigned Panoramix help guide webpage to improve user experience using MVC in Microsoft Visual Studio. Created a search function for the help page using text analytics.
-					</p>
-				</div>
-		</div>
-	</div>
-	</div>
-</div>
-
-<div id="exp2-section">
-	<div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-		<div class="col-md-8 cold-md-offset-2">
-			<h1>Other Experience</h1>
-		</div>
-	</div>
-	
-
-	<div class="row main-low-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="smartschoollogo" src="images/smart_school_logo.png" alt="">
-				</div>
-				<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h4 class="color-light-blue"><strong>Smart School</strong> --- English Tutor</h4><h6><br><i>Barcelona, Spain</i> (October 2019-March 2020)</h6>
-					<p>
-						Spent several hours a week tutoring private classes of all ages and all levels of English. Led conversational classes by creating discussion and conversation topics.
-					</p>
-				</div>
-		</div>
-	</div>
-
-	<div class="row main-low-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="cfalogo" src="images/cfa_logo.png" alt="">
-				</div>
-				<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h4 class="color-light-blue"><strong>Chick Fil A</strong> --- Team Member</h4><h6><br><i>Marlborough, MA</i> (July 2019-August 2020)</h6>
-					<p>
-						Prepared and assembled meals in the kitchen of a high-volume food restaurant. Trained new employees on processes. Responsibilities included driving to a warehouse for additional inventory, cleaning cooking equipment, and disposing of waste. Frequently called by a manager for additional shifts.
-					</p>
-				</div>
-		</div>
-	</div>
-
-	<div class="row main-low-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="kwonslogo" src="images/kwons_logo.jpeg" alt="">
-				</div>
-				<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h4 class="color-light-blue"><strong>Kwon's Martial Arts</strong> --- Teaching Assistant and Competition Team Captain</h4><h6><br><i>Marlborough, MA</i> (September 2017-June 2019)</h6>
-					<p>
-						As a second-degree black belt, taught younger students in the discipline and practice of taekwondo. Led the school’s competitive team in local, state and national tournaments. Gold and silver medalist in regional and national tournaments.
-					</p>
-				</div>
-		</div>
-	</div>
-
-	<div class="row main-low-margin main-bottom-margin">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-					<img class="amsalogo" src="images/amsa_logo.png" alt="">
-				</div>
-				<div class="col-md-8" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<h4 class="color-light-blue"><strong>CS Gents</strong> --- Mentor</h4><h6><br><i>Marlborough, MA</i> (November 2017-April 2019)</h6>
-					<p>
-						Co-led extracurricular club teaching middle school boys computer programming for three hours a week. Prepared students to present final projects in a showcase to the invited public.
-					</p>
-				</div>
-		</div>
-	</div>
-
-
-</div>
-
-
-
-<!--END RESUME SECTION-->
-<!--PROJECTS SECTION-->
-<div id="project-section">
-	<div class="container">
-
-		<div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-			<div class="col-md-8 cold-md-offset-2">
-				<h1>Projects</h1>
 			</div>
 		</div>
-
-		<div class="col-md-10 main-low-margin">
-			<div data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<p>
-						<h4>Computer Science Thesis: How Chess Engines Employ Search Algorithms</h4>
-						<span class="tab"></span> Researched and wrote an undergraduate thesis to satisfy the Computer Science department requirements. 
-						<a href="/theses/Computer Science Thesis.pdf">How Chess Engines Employ Search Algorithms</a>
-					</p>
-			</div>
-		</div>
-
-		<div class="col-md-10 main-low-margin">
-			<div data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<p>
-						<h4>Mathematics Thesis: Concepts in Hypergraph Theory</h4>
-						<span class="tab"></span>Researched and wrote an undergraduate thesis to satisfy the Mathematics department requirements.
-						<a href="/theses/Math Thesis.pdf">Concepts in Hypergraph Theory</a>
-					</p>
-			</div>
-		</div>
-
-
-		<div class="col-md-10 main-low-margin">
-			<div data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<p>
-						<h4>Help Guides Web Page</h4>
-						<span class="tab"></span>I created a Help Guides Web Page for Panoramix. It includes a search query and back-end function to search and sort relavtive PDF's. I used HTML, ASP.Net MVC and Razor, C#, CSS, and Javascript to create the functional webpage and search function. 
-						<a href="https://www.panoramixfinancial.com/helpguides">Here is a link to the webpage.</a>
-					</p>
-			</div>
-		</div>
-
-		<div class="col-md-10 main-low-margin">
-			<div data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<p>
-						<h4>Back-end PDF Search Function</h4>
-						<span class="tab"></span>I wrote a back-end function in C# to search through a library of PDF's to find the most relevant ones based on a cleaned search query input by the user. I ranked the relevancy of each PDF by lexical density and returned a sorted, ordered list of PDF's. 
-					</p>
-			</div>
-		</div>
-
-
-
-
-
-		<div class="col-md-10 main-low-margin">
-			<div data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<p>
-						<h4>HPC Storage Tests</h4>
-						<span class="tab"></span>I created a function to automatically run hundreds of fio storage tests on an HPC Cluster with varying latencies, block-sizes, throughput sizes, test file sizes, and alternated between random and sequential read and write tests. The function wrote the test results to a text file, and then read and graphed the results from the text file using matplotlib.
-					</p>
-			</div>
-		</div>
-
-
-		<div class="col-md-10 main-low-margin main-bottom-margin">
-			<div data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<p>
-						<h4>Union College Sports History Analysis</h4>
-						<span class="tab"></span>I created a python function to automatically read through every Union College newspapers from 1880 to 2000. From here, I count the mention of certain sports in the newspapers, and analyze and graph the lexical density of each sport. From the sentences which mention sports, I measure the average sentence-level polarity, which is used to decide whether a sentence is negative or positive. I compare my findings with the actual results of the Union sports teams during these years.
-						<a href="https://github.com/colbyryan2019/colbyryan2019/blob/main/Union_College_Sports_History.ipynb">Here is a link to the full project.</a> 
-					</p>
-			</div>
-		</div>
-
-
-
 	</div>
-</div>
 
-<!--END PROJECTS SECTION-->
+	<!-- PROJECTS -->
+	<div id="project-section">
+		<div class="container">
+			<div class="row main-top-margin text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<h1>Projects</h1>
+					<div class="section-underline"></div>
+				</div>
+			</div>
 
+			<div class="row main-low-margin main-bottom-margin">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="project-card">
+						<h4 class="project-title">Mello Life</h4>
+						<p class="project-desc">Built and launched Mello, a gamified habit-tracking and productivity app with daily challenges and streak-based rewards, developing the full stack from scratch using React Native, TypeScript, Supabase, and RevenueCat.</p>
+						<a href="https://apps.apple.com/us/app/mello-life/id6759076619" class="project-link">View App →</a>
+					</div>
+				</div>
+				<div class="col-md-10 col-md-offset-1">
+					<div class="project-card">
+						<h4 class="project-title">Mathematica</h4>
+						<p class="project-desc">Designed, built, and deployed a math-based iOS app, handling the entire codebase infrastructure and publishing process independently on the App Store.</p>
+						<a href="https://apps.apple.com/us/app/mathematica-original/id6743127573" class="project-link">View on App Store →</a>
+					</div>
+				</div>
+				<div class="col-md-10 col-md-offset-1">
+					<div class="project-card">
+						<h4 class="project-title">Mathematics Thesis</h4>
+						<p class="project-desc">Investigated properties, theorems, and structures of hypergraphs — an extension of graph theory where edges may link multiple vertices simultaneously.</p>
+						<a href="/theses/Math Thesis.pdf" class="project-link">Read Thesis →</a>
+					</div>
+				</div>
+				<div class="col-md-10 col-md-offset-1">
+					<div class="project-card">
+						<h4 class="project-title">Computer Science Thesis</h4>
+						<p class="project-desc">Compared two leading chess engines on how they evaluated intricately designed chess positions, analyzing search algorithms and evaluation functions.</p>
+						<a href="/theses/Computer Science Thesis.pdf" class="project-link">Read Thesis →</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-
-
-<!--JAVASCRIPT SCRIPTS-->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scrollReveal.js"></script>
-<script src="js/custom.js"></script>
+	<!-- SCRIPTS -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scrollReveal.js"></script>
+	<script src="js/custom.js"></script>
 
 </body>
 <footer>
 	<div class="footer">
+		<p class="footer-name">Colby Ryan</p>
 		<ul class="footer-ul">
-			<li class="footer-li">colbyryan2019@gmail.com</li>
-			<li class="footer-li">508-330-8410</li>
-			<li class="footer-li"><a href="https://www.linkedin.com/in/colby-ryan/">linked-in</a></li>
+			<li class="footer-li">New York City, NY 11211</li>
+			<li class="footer-li"><a href="tel:5083308410">(508) 330-8410</a></li>
+			<li class="footer-li"><a href="mailto:colbyryan2019@gmail.com">colbyryan2019@gmail.com</a></li>
+			<li class="footer-li"><a href="https://www.linkedin.com/in/colby-ryan/">LinkedIn</a></li>
 			<li class="footer-li"><a href="https://github.com/colbyryan2019">GitHub</a></li>
 		</ul>
 	</div>
-
 </footer>
+
 </html>

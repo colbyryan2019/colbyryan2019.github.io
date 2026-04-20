@@ -1,284 +1,393 @@
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-/* ===========================================================
-   GENERAL STYLES   
-   ============================================================*/
+/* ============================================================
+   GENERAL
+   ============================================================ */
 body {
-   font-family:'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #000;   
-    margin-top: 40px;
-    line-height:16px;
+	font-family: 'Inter', 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #1e293b;
+	margin-top: 50px;
+	line-height: 1.7;
+	background-color: #f8fafc;
 }
 
 h1, h2, h3, h4, h5, h6 {
-      font-family:'Open Sans', sans-serif;
-    font-weight: 500;
-   line-height:40px;
-   
+	font-family: 'Inter', 'Open Sans', sans-serif;
+	font-weight: 600;
+	line-height: 1.3;
+	color: #0f172a;
 }
 
-h1 {
-    font-weight: 700;
-}
-.text-center {
-    text-align: center; 
+h1 { font-weight: 700; font-size: 2rem; }
+
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+
+.main-top-margin { padding-top: 75px; }
+.main-low-margin  { padding-top: 40px; }
+.main-bottom-margin { padding-bottom: 75px; }
+
+a, a:hover { text-decoration: none; }
+
+p { line-height: 1.8; margin-bottom: 18px; color: #334155; font-size: 17px !important; }
+
+.section-underline {
+	width: 50px;
+	height: 4px;
+	background: #2563eb;
+	border-radius: 2px;
+	margin: 10px auto 0;
 }
 
-.main-top-margin {
-	padding-top:75px;
-    /* margin-top: 75px;*/
-}
-.main-low-margin {
-	padding-top:55px;
-     /*margin-top: 55px;*/
-}
-.main-bottom-margin{
-	padding-bottom:75px;
-	/*margin-bottom: 75px;*/
-}
+/* ============================================================
+   COLORS
+   ============================================================ */
+.color-blue  { color: #2563eb; }
+.color-light-blue { color: #2563eb; }
 
-a,a:hover {
-    text-decoration:none;
-}
-
-p {
-    line-height: 30px;
-    margin-bottom: 23px;
-}
-
-.images-margin-product {
-    margin-top:30px;
-}
-.bottam-pad {
-     padding-bottom:40px;
-}
-.text-justify {
-    text-align:justify;
-}
-/* ==========================================================================
-   COLOR CODES
-   ========================================================================== */
-
-.color-red {
-    color:#ff0000;
-}
-
-.color-green {
-    color:#07BB00;
-}
-
-.color-light-blue {
-    color:#BB00BB;
-}
-
-.color-blue {
-    color:#0052FF;
-}
-.color-brown {
-    color:#EB8F2D;
-}
-.color-black {
-    color:#000000;
-}
-
-/* ==========================================================================
-   HEADER SECTION
-   ========================================================================== */
-
-#header-section {
-	background: url(images/header.jpg) no-repeat center top;
-	margin-top: -20px;
-	padding-top:20px;
-	text-align:center;
-	background-position: center center;
-	min-height: 700px;
-	width: 100%;	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#header-section h1 {
-	margin-top: 120px;
-	color: white;
-	font-size: 65px;
-	font-weight: 900;
-	letter-spacing: 4px;
-    line-height:70px;
-}
-
-#header-section h2 {
-	color: white;
-	font-size: 40px;
-	font-weight: 900;
-	letter-spacing: 4px;
-}
-.down-icon {
-     color:white;
-    font-weight:900;
-}
-/* ==========================================================================
-   ABOUT SECTION
-   ========================================================================== */
-
-#about-section {
-    background-color: #FAFAFA;  
-}
-
-#resume-section{
-	background-color: #D9E0EE;
-}
-#exp1-section{
-	background-color: #FAFAFA;
-}
-#exp2-section{
-	background-color: #D9E0EE; 
-}
-#project-section{
-	background-color: #FAFAFA;
-	justify-content: center;
-}
-.centered{
-	text-align: center;
-}
-.tab{
-	display:inline-block;
-	margin-left:40px;
-}
-
-/*
-IMAGES SCALING
-*/
-.headshot{
-	width:50%;
-	height:auto;
-}
-.unionlogo{
-	width:55%;
-	height:auto;
-}
-.amsalogo{
-	width:50%;
-	height:auto;
-}
-.tandemailogo{
-	width:50%;
-	height:auto;
-	mix-blend-mode: multiply;
-}
-.sapphirelogo{
-	width:50%;
-	height:auto;
-	mix-blend-mode: multiply;
-}
-.panagoralogo{
-	width:50%;
-	height:auto;
-	mix-blend-mode: multiply;
-}
-
-.smartschoollogo{
-	width:50%;
-	height:auto;
-	mix-blend-mode: multiply;
-}
-
-.cfalogo{
-	width:50%;
-	height:auto;
-}
-.kwonslogo{
-	width:40%;
-	height:auto;
-	mix-blend-mode: multiply;
-}
-
-/* ===========================================================
-   BOOTSTRAP ELEMENTS CHANGES   
-   ============================================================*/
+/* ============================================================
+   NAVBAR
+   ============================================================ */
 .navbar {
-	font-size: 14px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
 }
 
 .navbar-inverse {
-	background: #000000;
-border-color: #5D5B66;
-}
-
-.navbar-inverse .navbar-nav > .active > a {
-	background: #ffffff;
+	background: #0f172a;
+	border-color: #1e293b;
 }
 
 .navbar-inverse .navbar-brand {
 	color: #ffffff;
-	font-weight: bolder;
-	font-size: 25px;
-    font-weight:900;
-	letter-spacing: 2px;
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: 3px;
 }
-.navbar-inverse :hover .navbar-brand:hover {
-	color: #ffffff;	
-}
+
 .navbar-inverse .navbar-nav > li > a {
-color: #FFFFFF;
+	color: #cbd5e1;
+	transition: color 0.2s;
 }
 
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
+.navbar-inverse .navbar-nav > .active > a {
+	background: #2563eb;
+	color: #fff;
 }
 
-/* ==========================================================================
-   FOOTER SECTION
-   ====================a====================================================== */
-   
+/* ============================================================
+   HEADER SECTION
+   ============================================================ */
+#header-section {
+	background: url(images/header.jpg) no-repeat center center;
+	background-size: cover;
+	margin-top: -20px;
+	padding-top: 20px;
+	text-align: center;
+	min-height: 700px;
+	width: 100%;
+	position: relative;
+}
 
-footer {
-	background: #000000;
-	border-color: #5D5B66;
-	color:#ffffff;
-	font-size:14px;
-    text-align: center; 
+#header-section::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(to bottom, rgba(15,23,42,0.55) 0%, rgba(15,23,42,0.35) 100%);
+	pointer-events: none;
 }
-.footer-ul {
-	display:flex;
-	list-style: none;
-    justify-content: space-between;
-    align-items: stretch;
-    height:100%;
-    width:100%;
+
+#header-section .container {
+	position: relative;
+	z-index: 1;
 }
-.footer-li {
-	display:inline;
-	color: #999999;
+
+#header-section h1 {
+	margin-top: 140px;
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	line-height: 1.1;
+}
+
+#header-section h2 {
+	color: #e2e8f0;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	margin-top: 10px;
+}
+
+.header-location {
+	color: #94a3b8;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin-top: 6px;
+}
+
+.header-links {
+	margin-top: 18px;
+	margin-bottom: 30px;
+}
+
+.header-link {
+	color: #93c5fd;
 	font-size: 14px;
-	font-family: inherit;
-	width:100%;
-	padding:15px 0px 15px 0px;
+	font-weight: 500;
+	transition: color 0.2s;
 }
 
+.header-link:hover { color: #ffffff; }
 
+.header-divider {
+	color: #475569;
+	margin: 0 12px;
+}
+
+.down-icon {
+	color: #ffffff;
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+
+.down-icon:hover { opacity: 1; }
+
+/* ============================================================
+   ABOUT SECTION
+   ============================================================ */
+#about-section {
+	background-color: #ffffff;
+}
+
+.headshot {
+	width: 75%;
+	height: auto;
+	border-radius: 50%;
+	border: 4px solid #e2e8f0;
+	margin-bottom: 14px;
+}
+
+.about-name {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: #0f172a;
+	margin-bottom: 4px;
+}
+
+.about-subtitle {
+	color: #64748b;
+	font-size: 16px !important;
+	margin-bottom: 4px;
+	line-height: 1.5;
+}
+
+/* ============================================================
+   EXPERIENCE & EDUCATION CARDS
+   ============================================================ */
+#experience-section {
+	background-color: #f1f5f9;
+}
+
+#education-section {
+	background-color: #ffffff;
+}
+
+.exp-card {
+	background: #ffffff;
+	border-radius: 10px;
+	border-left: 4px solid #2563eb;
+	padding: 24px 28px;
+	box-shadow: 0 1px 4px rgba(15,23,42,0.07), 0 4px 16px rgba(15,23,42,0.05);
+	transition: box-shadow 0.2s;
+}
+
+#education-section .exp-card {
+	background: #f8fafc;
+	border-left-color: #0ea5e9;
+}
+
+.exp-card:hover {
+	box-shadow: 0 4px 12px rgba(15,23,42,0.10), 0 8px 24px rgba(15,23,42,0.08);
+}
+
+.exp-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 14px;
+}
+
+.exp-company-block {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.exp-logo {
+	height: 36px;
+	width: auto;
+	object-fit: contain;
+	mix-blend-mode: multiply;
+	flex-shrink: 0;
+}
+
+.exp-company {
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	color: #0f172a;
+}
+
+.exp-role {
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	color: #2563eb;
+	margin-top: 2px;
+}
+
+.exp-date {
+	font-size: 15px;
+	font-weight: 500;
+	color: #64748b;
+	white-space: nowrap;
+	padding-top: 4px;
+}
+
+.exp-bullets {
+	padding-left: 20px;
+	margin: 0;
+}
+
+.exp-link {
+	color: #2563eb;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.exp-link:hover { color: #1d4ed8; }
+
+.exp-bullets li {
+	color: #334155;
+	font-size: 17px !important;
+	line-height: 1.8;
+	margin-bottom: 8px;
+}
+
+/* ============================================================
+   PROJECTS SECTION
+   ============================================================ */
+#project-section {
+	background-color: #f1f5f9;
+}
+
+.project-card {
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 24px 24px 20px;
+	margin-bottom: 24px;
+	box-shadow: 0 1px 4px rgba(15,23,42,0.07), 0 4px 16px rgba(15,23,42,0.05);
+	border-top: 3px solid #2563eb;
+	display: flex;
+	flex-direction: column;
+	transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.project-card:hover {
+	box-shadow: 0 4px 12px rgba(15,23,42,0.10), 0 8px 24px rgba(15,23,42,0.08);
+	transform: translateY(-2px);
+}
+
+.project-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #0f172a;
+	margin-bottom: 10px;
+}
+
+.project-desc {
+	font-size: 17px !important;
+	color: #475569;
+	line-height: 1.8;
+	flex: 1;
+	margin-bottom: 14px;
+}
+
+.project-link {
+	font-size: 16px;
+	font-weight: 600;
+	color: #2563eb;
+	transition: color 0.2s;
+	margin-top: auto;
+}
+
+.project-link:hover { color: #1d4ed8; }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer {
+	background: #0f172a;
+	color: #94a3b8;
+	font-size: 13px;
+	text-align: center;
+	padding: 28px 20px;
+}
+
+.footer-name {
+	color: #e2e8f0;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 12px;
+}
+
+.footer-ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 8px 24px;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-li {
+	color: #64748b;
+	font-size: 13px;
+}
+
+.footer-li a {
+	color: #94a3b8;
+	transition: color 0.2s;
+}
+
+.footer-li a:hover { color: #e2e8f0; }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 768px) {
+	#header-section h1 { font-size: 38px; letter-spacing: 3px; }
+	#header-section h2 { font-size: 18px; }
+
+	.exp-header {
+		flex-direction: column;
+	}
+
+	.exp-date {
+		white-space: normal;
+	}
+
+	.headshot { width: 55%; }
+
+	.project-card { margin-bottom: 20px; }
+}
